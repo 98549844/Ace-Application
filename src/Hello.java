@@ -13,6 +13,6 @@ public class Hello {
     }
 
     public void after() {
-        System.out.println("after");
+        System.out.println("aftejyvuvuvr");
     }
 }
