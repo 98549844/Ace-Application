@@ -1,10 +1,12 @@
+import java.io.IOException;
+
 public class Hello {
 
-    public static void main(String[] args) {
-        System.out.println("Hello Word !");
-        Hello h = new Hello();
-        h.before();
-        h.after();
+    public static void main(String[] args) throws IOException {
+
+
+        String Command = "open " + "http://yahoo.com.hk";
+        Process Child = Runtime.getRuntime().exec(Command);
     }
 
 
